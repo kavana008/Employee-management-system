@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Management System</h1>
+    <form id="empForm">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="text" id="department" placeholder="Department" required>
+      <input type="text" id="job_title" placeholder="Job Title" required>
+      <button type="submit">Add Employee</button>
+    </form>
+    <h2>Employee List</h2>
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Job Title</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
